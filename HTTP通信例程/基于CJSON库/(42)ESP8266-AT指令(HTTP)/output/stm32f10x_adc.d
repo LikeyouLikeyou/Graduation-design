@@ -1,0 +1,14 @@
+..\output\stm32f10x_adc.o: ..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c
+..\output\stm32f10x_adc.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
+..\output\stm32f10x_adc.o: E:\UV5.22\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h
+..\output\stm32f10x_adc.o: E:\UV5.22\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\core_cm3.h
+..\output\stm32f10x_adc.o: E:\UV5.22\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\stm32f10x_adc.o: E:\UV5.22\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h
+..\output\stm32f10x_adc.o: ..\user\stm32f10x_conf.h
+..\output\stm32f10x_adc.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h
+..\output\stm32f10x_adc.o: E:\UV5.22\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h
+..\output\stm32f10x_adc.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+..\output\stm32f10x_adc.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+..\output\stm32f10x_adc.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+..\output\stm32f10x_adc.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+..\output\stm32f10x_adc.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h

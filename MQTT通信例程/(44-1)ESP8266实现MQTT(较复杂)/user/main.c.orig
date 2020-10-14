@@ -1,0 +1,50 @@
+#include "mymqtt.h"
+#include "esp826601s.h"
+#include "printf.h"
+#include "delay.h"
+#include "usart3.h"
+
+u8 mqtt_msg[200]={0};
+u16 len;
+
+u8 ping[2]={0xc0,0x00};
+
+void Mqtt_Init(void)
+{
+	ESP826601S_Init();
+	len=mqtt_connect_message(mqtt_msg,"123456","","");//id=123456,用户名和密码为空
+for(i=0;i<len;i++)
+{
+	printf("%02X ",mqtt_msg[i]);
+}
+if(ESP_SendTcpUdp(mqtt_msg,len,200))
+{
+	printf("\r\nMQTT_Connect ...\r\n");
+	Delay10Ms(100);//1000毫秒
+	//构建MQTT订阅请求包
+	len=mqtt_subscribe_message(mqtt_msg,"test",1,1);    //订阅test主题
+	//PrintHex(mqtt_msg,len);
+	if(ESP_SendTcpUdp(mqtt_msg,len,200))
+	{
+		state=1;
+		printf("\r\nMQTT_Subscribe ...\r\n");
+	}
+}
+	
+	
+}
+
+
+
+int main(void)
+{
+	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
+	Usart3_Configuration(115200);
+	USART_Initialization(115200);
+	
+	while(1)
+	{
+		
+	}
+
+}

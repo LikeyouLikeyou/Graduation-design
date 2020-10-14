@@ -1,0 +1,15 @@
+..\output\keypros.o: ..\Peripheral\keypros.c
+..\output\keypros.o: ..\Peripheral\keypros.h
+..\output\keypros.o: E:\UV5.22\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h
+..\output\keypros.o: E:\UV5.22\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\core_cm3.h
+..\output\keypros.o: E:\UV5.22\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\keypros.o: E:\UV5.22\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h
+..\output\keypros.o: ..\user\stm32f10x_conf.h
+..\output\keypros.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h
+..\output\keypros.o: E:\UV5.22\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h
+..\output\keypros.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+..\output\keypros.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+..\output\keypros.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+..\output\keypros.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+..\output\keypros.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
+..\output\keypros.o: ..\Peripheral\delay.h

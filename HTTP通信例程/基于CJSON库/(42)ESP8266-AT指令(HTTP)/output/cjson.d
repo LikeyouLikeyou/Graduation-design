@@ -1,0 +1,9 @@
+..\output\cjson.o: ..\CJSON\cJSON.c
+..\output\cjson.o: E:\UV5.22\ARM\ARMCC\Bin\..\include\string.h
+..\output\cjson.o: E:\UV5.22\ARM\ARMCC\Bin\..\include\stdio.h
+..\output\cjson.o: E:\UV5.22\ARM\ARMCC\Bin\..\include\math.h
+..\output\cjson.o: E:\UV5.22\ARM\ARMCC\Bin\..\include\stdlib.h
+..\output\cjson.o: E:\UV5.22\ARM\ARMCC\Bin\..\include\limits.h
+..\output\cjson.o: E:\UV5.22\ARM\ARMCC\Bin\..\include\ctype.h
+..\output\cjson.o: ..\CJSON\cJSON.h
+..\output\cjson.o: E:\UV5.22\ARM\ARMCC\Bin\..\include\stddef.h
